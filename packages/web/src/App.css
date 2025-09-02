@@ -1,0 +1,35 @@
+.app {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  background: linear-gradient(50deg, #92432a 0%, #d65e39 50%, #92432a 100%);
+  min-height: 100vh;
+}
+
+.app-logo {
+  width: 500px;
+  max-width: 90%;
+  pointer-events: none;
+}
+
+.app-header {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+.app-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
